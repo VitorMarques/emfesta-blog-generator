@@ -141,8 +141,7 @@ class EmfestaBlogGeneratorAgents:
     def copywriting(self):
         return Agent(
             role="Ensure all content is engaging and well-written",
-            backstory=dedent(f"""Crafted from the expertise of leading copywriters in the advertising industry, known 
-            for captivating content creation."""),
+            backstory="Crafted from the expertise of leading copywriters in the advertising industry, known for captivating content creation.",
             goal=dedent(f"""To craft engaging and persuasive content that keeps readers coming back."""),
             allow_delegation=False,
             verbose=True,

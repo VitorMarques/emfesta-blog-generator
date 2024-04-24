@@ -10,8 +10,7 @@ crewai = "0.28.8"
 unstructured = "==0.13.3"
 pyowm = "3.3.0"
 python-dotenv = "1.0.0"
-
-[tool.poetry.dev-dependencies]
+flask = "^3.0.3"
 
 [tool.pyright]
 useLibraryCodeForTypes = true
